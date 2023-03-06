@@ -1,10 +1,13 @@
+from Customer import *
+from Product import *
+
+
 # This is the main menu
 
 def menu():
     print("Welcome to our service!! Choose Option")
     print("1. Customer operations")
     print("2. Product operations")
-    print("3. Queries")
     print("4. Exit")
 
 
@@ -23,11 +26,7 @@ while loop == 1:
 
         menu()
         pass
-    elif choice == 3:
-        queries()
 
-        menu()
-        pass
     elif choice == 4:
         loop = 0
 
